@@ -53,8 +53,8 @@
             Me.btConfigureConnection = New System.Windows.Forms.Button()
             Me.btEditQuery = New System.Windows.Forms.Button()
             Me.tableLayoutPanel1.SuspendLayout()
-            DirectCast(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' sqlDataSource1
@@ -214,8 +214,8 @@
             Me.Text = "Form1"
             Me.tableLayoutPanel1.ResumeLayout(False)
             Me.tableLayoutPanel1.PerformLayout()
-            DirectCast(Me.gridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.gridView1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
 
         End Sub
